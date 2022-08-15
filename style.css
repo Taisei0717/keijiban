@@ -1,0 +1,112 @@
+.header{
+    display: inline-block;
+}
+
+.menu{
+    height: 60px;
+    background-color: black;
+}
+
+.menu li{ 
+        display: inline-block;
+        padding: 20px;
+         color: ghostwhite;         
+
+}
+
+.title h1 {
+    width: 70%;
+    border-bottom: solid 1px black;
+    border-left: solid 5px black;
+
+}
+
+.entry{
+    width: 70%;
+    font-weight: bold;
+    border-left: solid 3px red;
+    
+}
+
+.title2 {
+    border-bottom: dotted 2px black;
+}
+
+.title3 {
+    border-bottom: dotted 2px black;
+}
+
+.title4 {
+    border-bottom: dotted 2px black;
+}
+
+form.box{
+    width: 70%;
+    height: auto;
+    margin:0;
+}
+
+
+div.left{
+    float: left;
+    width: 70%;
+    height: 800px;
+    margin 0;
+    background-color: #ebebeb;
+    color: black;
+}
+
+div.right{
+    float: left;
+    width: 30%;
+    height: 800px;
+    margin: auto;
+    background-color: #ebebeb;
+    color: black;
+
+}
+
+.kiji{
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    width:100%;
+    color: black;
+}
+
+.kiji h3{
+    border-bottom: solid 2px lightgrey;
+    color: black;
+}
+
+.contents{
+    margin:5px;
+    padding-bottom:5px;
+    color: black;
+}
+.handlename{
+    font-size: 12px;
+    color: black;
+}
+
+.main{
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+}
+
+.footer { clear:left ;
+    position: absolute;
+    background-color: black;
+    bottom: 0;
+    text-align: center;
+    padding: 30px 0;
+}
+
+div.foot{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
